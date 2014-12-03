@@ -7,11 +7,10 @@
 //
 
 #import "NSData+zlib.h"
-
-@implementation NSData (zlib)
-
 #import "zlib.h"
 // don't forget to add libz.1.2.x.dylib into your project
+
+@implementation NSData (zlib)
 
 - (NSData *)gzipInflate
 {

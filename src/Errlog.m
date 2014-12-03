@@ -14,6 +14,7 @@
 #import "Base64.h"
 #include <sys/types.h>
 #include <sys/sysctl.h>
+#include <time.h>
 
 enum {
     kSeverityTrace = 1,

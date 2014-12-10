@@ -6,5 +6,6 @@ Pod::Spec.new do |s|
     s.source = { :git => "https://github.com/devenergy/errlog-ios.git" }
     s.source_files = "src/**/*"
     s.frameworks = "Foundation"
+    s.library = 'libz.dylib'
     s.requires_arc = true
 end
